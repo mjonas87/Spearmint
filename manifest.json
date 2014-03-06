@@ -1,0 +1,12 @@
+{
+  "name": "Spearmint",
+  "manifest_version": 2,
+  "version": "0.1",
+  "description": "Adds extra functionality to Mint.com",
+  "content_scripts": [
+    {
+      "matches": ["https://wwws.mint.com/planning.event*"],
+      "js": ["jquery-2.1.0.js", "budgetHelper.js"]
+    }
+  ]
+}
